@@ -5,7 +5,6 @@
 }
 
 body {
-  min-height: 100vh;
   font-family: "Roboto", sans-serif;
   display: flex;
   align-items: center;
@@ -24,11 +23,12 @@ a {
 
 .login__page {
   position: relative;
+  height: 500px;
+  margin-top: 40px;
 }
 
 .log__page {
-  margin-top: 100px;
-  height: 650px;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
