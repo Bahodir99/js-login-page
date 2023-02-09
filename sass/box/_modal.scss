@@ -1,0 +1,22 @@
+.modal{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 7px rgba(251, 248, 248, 0.558);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 1s;
+    transform: translateY(-800px);
+}
+.modal h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: red ;
+    
+}
+.open{
+    transform: translateY(0);
+}
